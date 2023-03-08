@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    display: grid;
+    grid-template-rows: 50px 1fr 50px;
+    background-image: url("./img/background.png");
+    height: 100vh;
+    padding: 70px 70px 24px 70px;
+
+    
+  
+
+}
+header{
+    
+
+}
+main{
+
+
+    display: flex;
+    align-items: center;
+   
+}
+
+.redes__sociais{
+
+ 
+ display: flex;
+ flex-direction: column;
+ gap: 16px;
+ justify-content: space-between;
+ 
+   
+    
+   
+    
+    
+
+
+}
+
+h1{
+    color: white;
+    font-size: medium;
+    
+
+}
+p{
+    color: white;
+}
+.video1{
+
+}
+.texto{
+    padding-right:  500px;
+}
+    .menu{
+        display: flex;
+        gap: 50px;
+        font-family: 'Open Sans', sans-serif;;
+
+    }
+   
