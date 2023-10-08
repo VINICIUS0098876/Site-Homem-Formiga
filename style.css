@@ -1,67 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Encode+Sans+SC&family=League+Spartan&family=Noto+Sans:wght@400;700&family=Outfit:wght@300&family=Poppins:wght@400;500;600&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 *{
-    margin: 0;
     padding: 0;
-
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    list-style: none;
+    text-decoration: none;
 }
+
 body{
-    display: grid;
-    grid-template-rows: 50px 1fr 50px;
-    background-image: url("./img/background.png");
+    background: url(./img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 100vh;
-    padding: 70px 70px 24px 70px;
-
-    
-  
-
 }
+
+/* HEADER */
+
 header{
-    
-
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
 }
+
+header h1{
+    color: #ffffff;
+}
+
+header h1 span{
+    color: royalblue;
+}
+
+header ul{
+    display: flex;
+    gap: 40px;
+}
+
+header ul li{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+header ul li a{
+    color: #ffffff;
+    display: block;
+    transition: 0.4s;
+}
+
+header ul li a:hover{
+    color: royalblue;
+    transform: scale(1.1);
+}
+
+
+/* MAIN */
+
+
 main{
-
-
     display: flex;
     align-items: center;
-   
+    height: 70%;
+    width: 100%;
 }
 
-.redes__sociais{
-
- 
- display: flex;
- flex-direction: column;
- gap: 16px;
- justify-content: space-between;
- 
-   
-    
-   
-    
-    
-
-
+main .texto{
+    margin-left: 50px;
+    width: 50%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
-h1{
-    color: white;
-    font-size: medium;
-    
+main img{
+    width: 400px;
+}
 
-}
-p{
-    color: white;
-}
-.video1{
 
+main .redes ul{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0px 600px;
 }
-.texto{
-    padding-right:  500px;
-}
-    .menu{
-        display: flex;
-        gap: 50px;
-        font-family: 'Open Sans', sans-serif;;
 
-    }
-   
+main .redes ul li{
+    font-size: 1.5rem;
+}
+
+main .redes ul li a{
+    color: #ffffff;
+    display: block;
+    transition: 0.4s;
+}
+
+main .redes ul li a:hover{
+    color: royalblue;
+    transform: scale(1.2);
+}
+
+main .redes{
+    width: 700px;
+}
